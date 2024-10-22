@@ -1,0 +1,12 @@
+version: 4.0.70
+steps:
+  - prompt: Assert the webpage loads successfully.
+    commands:
+      - command: assert
+        expect: The complete real-time developer platform
+  - prompt: >-
+      Assert the PubNub logo is visible on the page.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: PubNub
