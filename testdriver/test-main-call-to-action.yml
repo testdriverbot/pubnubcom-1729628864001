@@ -1,0 +1,93 @@
+version: 4.0.70
+steps:
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
+  - prompt: Click on the "Start Building" button.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Start Building
+        direction: down
+      - command: hover-text
+        text: Start Building
+        description: button to start building
+        action: click
