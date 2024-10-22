@@ -1,0 +1,14 @@
+version: 4.0.70
+steps:
+  - prompt: Click on the "Support" link in the header.
+    commands:
+      - command: hover-text
+        text: SUPPORT
+        description: link in the header
+        action: click
+  - prompt: >-
+      Assert that a support page or resource is shown.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: the support page is displayed with "HOW CAN WE HELP YOU?" visible
