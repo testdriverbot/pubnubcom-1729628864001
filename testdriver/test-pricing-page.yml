@@ -1,0 +1,18 @@
+version: 4.0.70
+steps:
+  - prompt: Click on the "Pricing" link in the header.
+    commands:
+      - command: hover-text
+        text: Pricing
+        description: link in the header
+        action: click
+  - prompt: Assert that the pricing page loads.
+    commands:
+      - command: assert
+        expect: the pricing page is displayed with "Pricing and Support" as the header
+  - prompt: >-
+      Check for at least one pricing plan displayed.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: at least one pricing plan is displayed on the page
